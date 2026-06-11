@@ -1,1 +1,111 @@
-Sistema de techpos
+<div align="center">
+
+# GestorBar
+
+**Sistema POS para gestão de bares e restaurantes**
+
+[![Versão](https://img.shields.io/badge/versão-2.6.4-blue?style=flat-square)](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases)
+[![Plataforma](https://img.shields.io/badge/plataforma-Windows-0078D6?style=flat-square&logo=windows)](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases)
+[![Licença](https://img.shields.io/badge/licença-proprietária-red?style=flat-square)](#licença)
+
+</div>
+
+---
+
+## O que é o GestorBar?
+
+GestorBar é um sistema de ponto de venda (POS) projetado para bares, restaurantes e estabelecimentos similares. Funciona **100% offline** — sem depender de internet para operar — e inclui um aplicativo móvel para garçons acessado via rede local.
+
+---
+
+## Funcionalidades
+
+- **Gestão de comandas** — Abertura, edição e fechamento de comandas por mesa
+- **Controle de caixa** — Abertura e fechamento de caixa com relatórios de turno
+- **Modo Evento** — Venda avulsa para eventos e shows, com controle separado
+- **Cardápio digital** — Cadastro de produtos com categorias e preços
+- **Pagamentos** — Dinheiro, cartão, PIX e divisão de conta com controle de troco
+- **Descontos e taxas** — Aplicação de desconto percentual/fixo e taxa de serviço
+- **Impressão térmica** — Suporte a impressoras térmicas para cupons e comandas
+- **App para garçons (PWA)** — Acesso pelo celular/tablet via Wi-Fi, sem instalação
+- **Relatórios e exportação** — Relatórios de vendas exportáveis para Excel
+- **Multi-usuário com RBAC** — Perfis: Admin, Gerente, Caixa e Garçom, cada um com permissões específicas
+- **Tela de bloqueio** — Bloqueio automático por inatividade com desbloqueio por senha
+- **Atualizações automáticas** — O sistema atualiza sozinho quando há nova versão disponível
+
+---
+
+## Instalação
+
+### Requisitos
+
+- Windows 10 ou superior (64 bits)
+- 4 GB de RAM (recomendado: 8 GB)
+- 500 MB de espaço em disco
+- Impressora térmica compatível (opcional)
+
+### Como instalar
+
+1. Acesse a página de [Releases](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases)
+2. Baixe o arquivo `GestorBar_Setup_x.x.x.exe` da versão mais recente
+3. Execute o instalador como **Administrador**
+4. Siga as instruções na tela
+5. Após a instalação, abra o GestorBar pelo atalho criado na área de trabalho
+
+> **Nota:** O instalador solicita permissão de administrador para configurar regras de firewall necessárias para o app dos garçons funcionar via rede local.
+
+---
+
+## App para Garçons (PWA)
+
+O GestorBar inclui um aplicativo web progressivo (PWA) acessado pelos garçons via Wi-Fi, **sem instalar nada no celular**.
+
+**Como usar:**
+
+1. Certifique-se de que o celular/tablet está na mesma rede Wi-Fi que o computador com o GestorBar
+2. No GestorBar (desktop), vá em **Configurações** e copie o endereço IP exibido
+3. Abra o navegador no celular e acesse `http://[IP]:3000`
+4. Faça login com seu usuário e comece a usar
+
+> O app funciona em qualquer navegador moderno (Chrome, Safari, Firefox). Para melhor experiência, adicione à tela inicial do celular.
+
+---
+
+## Primeiros Passos
+
+Ao abrir o GestorBar pela primeira vez:
+
+1. **Crie o usuário administrador** — O sistema solicitará nome, usuário e senha
+2. **Configure o estabelecimento** — Acesse **Configurações** para definir nome e dados do local
+3. **Cadastre os produtos** — Vá em **Produtos** para adicionar os itens do cardápio
+4. **Abra o caixa** — Antes de realizar vendas, abra o caixa em **Caixa**
+5. **Comece a vender** — Crie comandas ou realize vendas diretas
+
+---
+
+## Atualização
+
+O GestorBar verifica automaticamente por novas versões ao iniciar. Quando uma atualização estiver disponível, uma notificação será exibida. Clique em **Atualizar agora** para instalar.
+
+Para atualizar manualmente, baixe o instalador da versão mais recente nas [Releases](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases) e execute-o normalmente — seus dados serão preservados.
+
+---
+
+## Suporte
+
+Encontrou algum problema ou tem uma sugestão?
+
+- Abra uma [Issue](https://github.com/Joaovdsmaranhao/GestorBar-releases/issues) neste repositório
+- Descreva o problema com o máximo de detalhes possível, incluindo a versão do sistema
+
+---
+
+## Licença
+
+GestorBar é um software proprietário. O uso é condicionado à aquisição de uma licença válida. A distribuição, cópia ou modificação não autorizada é proibida.
+
+---
+
+<div align="center">
+  Desenvolvido por <strong>Otto Stack</strong> &nbsp;•&nbsp; v2.6.4
+</div>
