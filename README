@@ -1,111 +1,157 @@
 <div align="center">
 
-# GestorBar
+  <img src="docs/assets/logo.png" alt="GestorBar" width="110" />
 
-**Sistema POS para gestão de bares e restaurantes**
+  <h1>GestorBar</h1>
 
-[![Versão](https://img.shields.io/badge/versão-2.6.4-blue?style=flat-square)](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases)
-[![Plataforma](https://img.shields.io/badge/plataforma-Windows-0078D6?style=flat-square&logo=windows)](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases)
-[![Licença](https://img.shields.io/badge/licença-proprietária-red?style=flat-square)](#licença)
+  <p>
+    <strong>Sistema POS completo para bares, restaurantes e eventos.</strong><br />
+    Rápido, 100% offline e com app para garçons direto no celular.
+  </p>
+
+  <p>
+    <a href="https://github.com/Joaovdsmaranhao/GestorBar-releases/releases">
+      <img src="https://img.shields.io/badge/versão-2.6.4-2563eb?style=for-the-badge" alt="versão" />
+    </a>
+    <img src="https://img.shields.io/badge/plataforma-Windows%2010%2B-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="windows" />
+    <img src="https://img.shields.io/badge/licença-proprietária-dc2626?style=for-the-badge" alt="licença" />
+  </p>
+
+  <p>
+    <a href="#-funcionalidades">Funcionalidades</a> ·
+    <a href="#-instalação">Instalação</a> ·
+    <a href="#-app-para-garçons">App de Garçom</a> ·
+    <a href="#-primeiros-passos">Começar</a> ·
+    <a href="#-suporte">Suporte</a>
+  </p>
+
+  <br />
+
+  <img src="docs/assets/preview.png" alt="Preview do GestorBar" width="820" />
 
 </div>
 
 ---
 
-## O que é o GestorBar?
+## ✨ Por que GestorBar?
 
-GestorBar é um sistema de ponto de venda (POS) projetado para bares, restaurantes e estabelecimentos similares. Funciona **100% offline** — sem depender de internet para operar — e inclui um aplicativo móvel para garçons acessado via rede local.
+O GestorBar foi feito pra quem **não pode parar a operação por causa da internet**. Sistema desktop nativo, dados locais e um app que os garçons abrem direto no celular pela Wi-Fi do estabelecimento — sem instalação, sem dependência de nuvem.
 
----
-
-## Funcionalidades
-
-- **Gestão de comandas** — Abertura, edição e fechamento de comandas por mesa
-- **Controle de caixa** — Abertura e fechamento de caixa com relatórios de turno
-- **Modo Evento** — Venda avulsa para eventos e shows, com controle separado
-- **Cardápio digital** — Cadastro de produtos com categorias e preços
-- **Pagamentos** — Dinheiro, cartão, PIX e divisão de conta com controle de troco
-- **Descontos e taxas** — Aplicação de desconto percentual/fixo e taxa de serviço
-- **Impressão térmica** — Suporte a impressoras térmicas para cupons e comandas
-- **App para garçons (PWA)** — Acesso pelo celular/tablet via Wi-Fi, sem instalação
-- **Relatórios e exportação** — Relatórios de vendas exportáveis para Excel
-- **Multi-usuário com RBAC** — Perfis: Admin, Gerente, Caixa e Garçom, cada um com permissões específicas
-- **Tela de bloqueio** — Bloqueio automático por inatividade com desbloqueio por senha
-- **Atualizações automáticas** — O sistema atualiza sozinho quando há nova versão disponível
+- ⚡ **100% offline** — opera mesmo sem internet
+- 📱 **App de garçom em PWA** — funciona em qualquer celular, zero instalação
+- 🖨️ **Impressão térmica nativa** — cupons e comandas saem direto
+- 🔄 **Atualizações automáticas** — sempre na versão mais recente
+- 🔐 **Multi-usuário com permissões** — Admin, Gerente, Caixa e Garçom
+- 🎉 **Modo Evento** — venda avulsa pra shows, festas e festivais
 
 ---
 
-## Instalação
+## 🎯 Funcionalidades
+
+### Operação
+- **Gestão de comandas** — abertura, edição e fechamento por mesa
+- **Controle de caixa** — abertura e fechamento com relatórios de turno
+- **Modo Evento** — venda avulsa para eventos e shows, com controle separado
+- **Pagamentos** — dinheiro, cartão, PIX e divisão de conta com cálculo de troco
+- **Descontos e taxas** — percentual ou valor fixo + taxa de serviço
+
+### Cardápio & Cozinha
+- **Cardápio digital** — produtos organizados por categoria e preço
+- **Impressão térmica** — cupons e comandas direto para impressora
+
+### Time
+- **App para garçons (PWA)** — acesso pelo celular via Wi-Fi
+- **Controle de acesso (RBAC)** — perfis Admin, Gerente, Caixa e Garçom
+- **Tela de bloqueio** — trava por inatividade com desbloqueio por senha
+
+### Gestão
+- **Relatórios de vendas** — exportáveis para Excel
+- **Atualizações automáticas** — notificação e instalação em 1 clique
+
+---
+
+## 📥 Instalação
 
 ### Requisitos
 
-- Windows 10 ou superior (64 bits)
-- 4 GB de RAM (recomendado: 8 GB)
-- 500 MB de espaço em disco
-- Impressora térmica compatível (opcional)
+| Item | Mínimo | Recomendado |
+|---|---|---|
+| **Sistema** | Windows 10 (64-bit) | Windows 11 |
+| **RAM** | 4 GB | 8 GB |
+| **Disco** | 500 MB | 1 GB livre |
+| **Impressora** | — | Térmica compatível |
 
-### Como instalar
+### Passo a passo
 
-1. Acesse a página de [Releases](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases)
+1. Acesse a página de [**Releases**](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases)
 2. Baixe o arquivo `GestorBar_Setup_x.x.x.exe` da versão mais recente
-3. Execute o instalador como **Administrador**
+3. Execute o instalador **como Administrador**
 4. Siga as instruções na tela
-5. Após a instalação, abra o GestorBar pelo atalho criado na área de trabalho
+5. Abra o GestorBar pelo atalho criado na área de trabalho
 
-> **Nota:** O instalador solicita permissão de administrador para configurar regras de firewall necessárias para o app dos garçons funcionar via rede local.
+> [!NOTE]
+> O instalador pede permissão de administrador para configurar as regras de firewall que liberam o app dos garçons na rede local.
 
 ---
 
-## App para Garçons (PWA)
+## 📱 App para Garçons
 
-O GestorBar inclui um aplicativo web progressivo (PWA) acessado pelos garçons via Wi-Fi, **sem instalar nada no celular**.
+O GestorBar inclui um app web progressivo (PWA) que os garçons acessam pelo Wi-Fi do estabelecimento — **sem instalar nada no celular**.
 
-**Como usar:**
+### Como conectar
 
-1. Certifique-se de que o celular/tablet está na mesma rede Wi-Fi que o computador com o GestorBar
-2. No GestorBar (desktop), vá em **Configurações** e copie o endereço IP exibido
-3. Abra o navegador no celular e acesse `http://[IP]:3000`
+1. Celular/tablet e computador conectados na **mesma rede Wi-Fi**
+2. No GestorBar (desktop), abra **Configurações** e copie o endereço de IP exibido
+3. No celular, acesse `http://[IP]:3000` em qualquer navegador
 4. Faça login com seu usuário e comece a usar
 
-> O app funciona em qualquer navegador moderno (Chrome, Safari, Firefox). Para melhor experiência, adicione à tela inicial do celular.
+> [!TIP]
+> Adicione à tela inicial do celular pra abrir como um app nativo. Compatível com Chrome, Safari e Firefox.
 
 ---
 
-## Primeiros Passos
+## 🚀 Primeiros Passos
 
 Ao abrir o GestorBar pela primeira vez:
 
-1. **Crie o usuário administrador** — O sistema solicitará nome, usuário e senha
-2. **Configure o estabelecimento** — Acesse **Configurações** para definir nome e dados do local
-3. **Cadastre os produtos** — Vá em **Produtos** para adicionar os itens do cardápio
-4. **Abra o caixa** — Antes de realizar vendas, abra o caixa em **Caixa**
-5. **Comece a vender** — Crie comandas ou realize vendas diretas
+1. **Crie o usuário administrador** — nome, usuário e senha
+2. **Configure o estabelecimento** — dados do local em **Configurações**
+3. **Cadastre os produtos** — itens do cardápio em **Produtos**
+4. **Abra o caixa** — antes de qualquer venda, abra o caixa em **Caixa**
+5. **Comece a vender** — crie comandas ou venda direto
 
 ---
 
-## Atualização
+## 🔄 Atualizações
 
-O GestorBar verifica automaticamente por novas versões ao iniciar. Quando uma atualização estiver disponível, uma notificação será exibida. Clique em **Atualizar agora** para instalar.
+O GestorBar verifica automaticamente novas versões ao iniciar. Quando uma atualização estiver disponível, clique em **Atualizar agora** e pronto.
 
-Para atualizar manualmente, baixe o instalador da versão mais recente nas [Releases](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases) e execute-o normalmente — seus dados serão preservados.
-
----
-
-## Suporte
-
-Encontrou algum problema ou tem uma sugestão?
-
-- Abra uma [Issue](https://github.com/Joaovdsmaranhao/GestorBar-releases/issues) neste repositório
-- Descreva o problema com o máximo de detalhes possível, incluindo a versão do sistema
+Para atualizar manualmente, baixe o instalador mais recente em [Releases](https://github.com/Joaovdsmaranhao/GestorBar-releases/releases) e execute normalmente. **Todos os dados são preservados.**
 
 ---
 
-## Licença
+## 💬 Suporte
 
-GestorBar é um software proprietário. O uso é condicionado à aquisição de uma licença válida. A distribuição, cópia ou modificação não autorizada é proibida.
+Achou um bug ou tem uma sugestão? Abra uma issue:
+
+- 🐛 [**Reportar um problema**](https://github.com/Joaovdsmaranhao/GestorBar-releases/issues/new)
+- 💡 [**Sugerir funcionalidade**](https://github.com/Joaovdsmaranhao/GestorBar-releases/issues/new)
+- 📚 [**Ver todas as issues**](https://github.com/Joaovdsmaranhao/GestorBar-releases/issues)
+
+Inclua o máximo de detalhes possível, principalmente a **versão do sistema** (visível em **Configurações → Sobre**) e prints/passos para reproduzir.
+
+---
+
+## 📜 Licença
+
+GestorBar é um software **proprietário**. O uso é condicionado à aquisição de uma licença válida. Distribuição, cópia ou modificação não autorizada é proibida.
 
 ---
 
 <div align="center">
-  Desenvolvido por <strong>Otto Stack</strong> &nbsp;•&nbsp; v2.6.4
+
+  **Desenvolvido por [Otto Stack](https://github.com/Joaovdsmaranhao)**
+
+  <sub>v2.6.4 · GestorBar © 2026 — Todos os direitos reservados</sub>
+
 </div>
