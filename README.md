@@ -148,7 +148,7 @@ GestorBar é um software **proprietário**. O uso é condicionado à aquisição
 
 <div align="center">
 
-  **Desenvolvido por [Otto Stack](https://github.com/Joaovdsmaranhao)**
+  **Desenvolvido por [João Maranhão](https://github.com/Joaovdsmaranhao)**
 
   <sub>v2.6.4 · GestorBar © 2026 — Todos os direitos reservados</sub>
 
